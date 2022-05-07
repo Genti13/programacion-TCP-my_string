@@ -8,14 +8,14 @@
 
 1651330770 f:\unlam\programacion & tcp\tcp\clase_customstring\class\cadena.h
 
-1651884148 source:e:\unlam\programacion & tcp\tcp\clase_customstring\lib\cadena.cpp
+1651927120 source:e:\unlam\programacion & tcp\tcp\clase_customstring\lib\cadena.cpp
 	"../class/Cadena.h"
 	"funciones.h"
 
-1651880116 e:\unlam\programacion & tcp\tcp\clase_customstring\class\cadena.h
+1651926352 e:\unlam\programacion & tcp\tcp\clase_customstring\class\cadena.h
 	<iostream>
 
-1651883936 source:e:\unlam\programacion & tcp\tcp\clase_customstring\main.cpp
+1651925012 source:e:\unlam\programacion & tcp\tcp\clase_customstring\main.cpp
 	<iostream>
 	"class/Cadena.h"
 

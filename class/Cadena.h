@@ -11,6 +11,7 @@ private:
 public:
     String();
     String(char * str);
+    String(const String&);
 
 
     String operator+(const String& str) const;

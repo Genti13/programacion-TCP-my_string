@@ -18,12 +18,20 @@ String::String(char * cad)
     }
     else
     {
-        str = new char[MAX];
+        str = new char[my_strlen(cad)];
         my_strcpy(str,cad);
         str[my_strlen(cad)] = '\0';
     }
 
 }
+
+String::String(const String& cad)
+ {
+     str = new char[my_strlen(cad.str)];
+     my_strcpy(str,cad.str);
+     str[my_strlen(cad.str)] = '\0';
+
+ }
 
 std::ostream& operator<<(std::ostream& os, const String& cad)
 {
@@ -34,14 +42,16 @@ std::ostream& operator<<(std::ostream& os, const String& cad)
 
 String String::operator+(const String& cad) const
 {
-    String aux = new char[my_strlen(cad.str)];
+    //String * aux = new String[my_strlen(cad.str)];
+    String * aux = new String(cad);
 
-    my_strcpy(aux.str, str);
-    my_strcat(aux.str, cad.str);
+    my_strcpy(aux->str, str);
+    my_strcat(aux->str, cad.str);
 
-    aux.str[my_strlen(cad.str) + my_strlen(str)] = '\0';
+    aux->str[my_strlen(cad.str) + my_strlen(str)] = '\0';
 
-    return aux;
+    //delete aux;
+    return *aux;
 }
 
 String& String::operator=(const String& cad)

@@ -34,11 +34,9 @@
 		</Compiler>
 		<Unit filename="class/Cadena.h" />
 		<Unit filename="lib/cadena.cpp" />
+		<Unit filename="lib/funciones.cpp" />
+		<Unit filename="lib/funciones.h" />
 		<Unit filename="main.cpp" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
