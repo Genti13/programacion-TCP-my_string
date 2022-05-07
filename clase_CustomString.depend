@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1651330770 source:f:\unlam\programacion & tcp\tcp\clase_customstring\main.cpp
+	<iostream>
+	"class/Cadena.h"
+
+1651330426 source:f:\unlam\programacion & tcp\tcp\clase_customstring\lib\cadena.cpp
+	"../class/Cadena.h"
+
+1651330770 f:\unlam\programacion & tcp\tcp\clase_customstring\class\cadena.h
+
+1651884148 source:e:\unlam\programacion & tcp\tcp\clase_customstring\lib\cadena.cpp
+	"../class/Cadena.h"
+	"funciones.h"
+
+1651880116 e:\unlam\programacion & tcp\tcp\clase_customstring\class\cadena.h
+	<iostream>
+
+1651883936 source:e:\unlam\programacion & tcp\tcp\clase_customstring\main.cpp
+	<iostream>
+	"class/Cadena.h"
+
+1651881528 source:e:\unlam\programacion & tcp\tcp\clase_customstring\lib\funciones.cpp
+	"funciones.h"
+
+1651881540 e:\unlam\programacion & tcp\tcp\clase_customstring\lib\funciones.h
+
